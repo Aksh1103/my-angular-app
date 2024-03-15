@@ -27,6 +27,7 @@ export class PhoneComponent {
 
   }
 
+  myString: string = 'Iphone';
 
 
   

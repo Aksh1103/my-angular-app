@@ -15,7 +15,8 @@ import { WatchComponent } from './watch/watch.component';
 import { SupportComponent } from './support/support.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BuyiphoneComponent } from './buyiphone/buyiphone.component';
-import { BuywatchComponent } from './buywatch/buywatch.component'
+import { BuywatchComponent } from './buywatch/buywatch.component';
+import { BuyphoneComponent } from './buyphone/buyphone.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { BuywatchComponent } from './buywatch/buywatch.component'
     WatchComponent,
     SupportComponent,
     BuyiphoneComponent,
-    BuywatchComponent
+    BuywatchComponent,
+    BuyphoneComponent
   ],
   imports: [
     BrowserModule,

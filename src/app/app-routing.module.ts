@@ -8,6 +8,7 @@ import { SupportComponent } from './support/support.component';
 import { WatchComponent } from './watch/watch.component';
 import { BuyiphoneComponent } from './buyiphone/buyiphone.component';
 import { BuywatchComponent } from './buywatch/buywatch.component';
+import { BuyphoneComponent } from './buyphone/buyphone.component';
 
 const routes: Routes = [
   {path:'signup',component: SignupComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'Support', component: SupportComponent},
   {path:'Watch',component:WatchComponent},
   {path:'buyiphone',component:BuyiphoneComponent},
-  {path:'buywatch',component:BuywatchComponent}
+  {path:'buywatch',component:BuywatchComponent},
+  {path:'buyphone',component:BuyphoneComponent}
   
   
 ];
