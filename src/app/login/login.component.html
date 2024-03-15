@@ -1,6 +1,6 @@
   <div class="container  login">
-    <h2>Login Here</h2>
-    <form action=>
+    <h2>{{title}}</h2>
+    <!-- <form action=>
       <div class="mb-3 mt-3">
         <label for="email">Email</label>
         <input type="email" class="form-control"  placeholder="Enter email" name="email">
@@ -20,6 +20,25 @@
       <button   routerLink="signup" class="btn btn-warning"  (click)="navigateToSecond" >Signup</button>
       
 
+    </form> -->
+
+
+    <form #loginForm="ngForm" (ngSubmit)=userLogin(loginForm.value)>
+      <input type="email" placeholder="Enter your eamil " name="eamil" ngModel>
+      <br>
+
+      <input type="text" placeholder="name " name="name" ngModel>
+
+      <br>
+
+     
+
+    <button click="userLogin()">submit</button> 
+    <br> 
     </form>
+    
+
+
+
   </div>
   

@@ -16,7 +16,8 @@ import { SupportComponent } from './support/support.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BuyiphoneComponent } from './buyiphone/buyiphone.component';
 import { BuywatchComponent } from './buywatch/buywatch.component';
-import { BuyphoneComponent } from './buyphone/buyphone.component'
+import { BuyphoneComponent } from './buyphone/buyphone.component';
+import {FormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,8 @@ import { BuyphoneComponent } from './buyphone/buyphone.component'
     AppRoutingModule,
     NgbModule,
     AuthModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

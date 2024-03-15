@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import {FormsModule} from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -16,11 +17,16 @@ export class LoginComponent  {
     this.router.navigate(['/signup']); // Navigate to the second component
   }
 
-
+  title  = 'Login here';
   
   savedata()
   {
     console.log("working the buttion");
+  }
+
+  userLogin(item:any)
+  {
+    console.log(item);
   }
 
 }
