@@ -1,38 +1,13 @@
   <div class="container  login">
     <h2>{{title}}</h2>
-    <!-- <form action=>
-      <div class="mb-3 mt-3">
-        <label for="email">Email</label>
-        <input type="email" class="form-control"  placeholder="Enter email" name="email">
-      </div>
-      <div class="mb-3">
-        <label for="pwd">Password</label>
-        <input type="password" class="form-control"  placeholder="Enter password" name="pswd">
-      </div>
-      <div class="form-check mb-3">
-        <label class="form-check-label">
-          <input class="form-check-input" type="checkbox" name="remember"> Remember me
-        </label>
-      </div>
-      <button  type="submit" class="btn btn-warning" (click)="savedata()">Submit</button>
-      <br>
-
-      <button   routerLink="signup" class="btn btn-warning"  (click)="navigateToSecond" >Signup</button>
-      
-
-    </form> -->
-
-
+   
     <form #loginForm="ngForm" (ngSubmit)=userLogin(loginForm.value)>
       <input type="email" placeholder="Enter your eamil " name="eamil" ngModel>
       <br>
-
-      <input type="text" placeholder="name " name="name" ngModel>
-
       <br>
-
-     
-
+      <input type="password" placeholder="Enter your password " name="name" ngModel>
+      <br>
+      <br>
     <button click="userLogin()">submit</button> 
     <br> 
     </form>
