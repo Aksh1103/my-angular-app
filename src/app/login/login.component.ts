@@ -17,7 +17,7 @@ export class LoginComponent  {
     this.router.navigate(['/signup']); // Navigate to the second component
   }
 
-  title  = 'Login here';
+  title  = 'Hey  there!';
   
   savedata()
   {
