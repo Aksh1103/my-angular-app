@@ -37,6 +37,15 @@
           }
         }
       }
+    },
+    {
+      "type": "npm",
+      "script": "ng",
+      "problemMatcher": [
+        "$eslint-stylish"
+      ],
+      "label": "npm: ng",
+      "detail": "ng"
     }
   ]
 }
